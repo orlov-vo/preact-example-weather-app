@@ -7,11 +7,15 @@
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
   "dependencies": {
     "preact": "^10.0.0"
   },
   "devDependencies": {
     "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.2.1",
     "prettier": "^1.18.2",
     "typescript": "^3.6.3"
   }
